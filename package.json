@@ -1,0 +1,42 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^9.0.13",
+    "@prisma/client": "^4.0.0",
+    "apollo-server": "^3.11.1",
+    "apollo-server-core": "^3.11.1",
+    "apollo-server-express": "^3.0.1",
+    "apollo-upload-client": "^17.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-upload": "^12.0.0",
+    "graphql-ws": "^5.11.2",
+    "lodash.merge": "^4.6.2",
+    "nanoid": "^4.0.1",
+    "next-auth": "^4.18.8",
+    "node": "^19.4.0",
+    "node-fetch": "^3.3.0",
+    "ts-node": "^10.9.1",
+    "uuidv4": "^6.2.13",
+    "ws": "^8.12.0"
+  },
+  "devDependencies": {
+    "@types/graphql-upload": "^15.0.2",
+    "@types/lodash.merge": "^4.6.7",
+    "@types/ws": "^8.5.4",
+    "nodemon": "^2.0.20",
+    "prisma": "^4.0.0",
+    "typescript": "^4.9.4"
+  }
+}
